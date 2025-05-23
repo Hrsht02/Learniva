@@ -7,18 +7,46 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependency directories
+node_modules/
+
+# Vite build output
+dist/
+dist-ssr/
 *.local
 
+# Environment variables
+.env
+.env.*.local
+
 # Editor directories and files
-.vscode/*
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Linux system files
+*~
+
+# npm
+package-lock.json
+
+# Optional: coverage and test output
+coverage/
+*.lcov
+
+# Optional: ID
